@@ -1,0 +1,16 @@
+{
+    "entry":{
+        "index":"./src/index.js",
+        "counter":"./src/counter.js"
+    },
+    "proxy": {
+  "/data.php": { //地址
+    "target": "http://www.bjlink32.com/data.php", //接口地址
+    // secure: false,// 如果是https接口，需要配置这个参数
+    "changeOrigin": true,//开启跨域
+    "pathRewrite": { "^/data.php" : "" }// 如果接口本身没有/api需要通过pathRewrite来重写了地址
+  }
+}
+
+}
+

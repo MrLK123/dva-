@@ -1,0 +1,52 @@
+Arguments: 
+  D:\sortware\node.exe D:\sortware\bin\yarn.js add redux-actions
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\sortware\;D:\sortware\Git\cmd;D:\sortware\bin;C:\Users\阿欣家的坤坤\AppData\Local\Microsoft\WindowsApps;D:\Bandizip\;C:\Users\阿欣家的坤坤\AppData\Roaming\npm;C:\Users\阿欣家的坤坤\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  10.15.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "start": "roadhog server",
+      "build": "roadhog build",
+      "lint": "eslint --ext .js src test",
+      "precommit": "npm run lint"
+    },
+    "dependencies": {
+      "dva": "^2.4.1",
+      "react": "^16.2.0",
+      "react-dom": "^16.2.0"
+    },
+    "devDependencies": {
+      "babel-plugin-dva-hmr": "^0.3.2",
+      "eslint": "^4.14.0",
+      "eslint-config-umi": "^0.1.1",
+      "eslint-plugin-flowtype": "^2.34.1",
+      "eslint-plugin-import": "^2.6.0",
+      "eslint-plugin-jsx-a11y": "^5.1.1",
+      "eslint-plugin-react": "^7.1.0",
+      "husky": "^0.12.0",
+      "redbox-react": "^1.4.3",
+      "roadhog": "^2.5.0-beta.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.27.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1117:14)
